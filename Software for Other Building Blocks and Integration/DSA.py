@@ -1,10 +1,6 @@
 """
 DSA.py
 
-GROUP MEMBERS:
-Faik Kerem Ors
-Mustafa Aydin
-
 """
 
 from random import *

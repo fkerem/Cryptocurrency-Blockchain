@@ -1,8 +1,4 @@
 """
-GROUP MEMBERS:
-- Faik Kerem ORS
-- Mustafa AYDIN
-
 Readme.txt:
 Required modules: random, sys, hashlib, sha3
 
@@ -46,7 +42,7 @@ def PoWGenerator(transaction): # To generate a valid Proof of Work
     trPoW = "Proof of Work: " + PoW + "\n"
     new_tr = new_tr + trPoW # Transaction is updated adding PoW line.
 
-    return (PoW,new_tr) # Returning PoW and valid transaction.
+    return (PoW,new_tr)     # Returning PoW and valid transaction.
 
 
 # To generate a transaction text excluding Nonce and PoW lines.
@@ -62,11 +58,11 @@ def trWoutLastTwoLines(prevHash):
     return transaction
 
 result = []
-prevHash = "" # The hash of the previous transaction.
+prevHash = "" 	    # The hash of the previous transaction.
 for i in range(10): # To generate 10 transactions.
     if i == 0:
         prevHash = "First transaction"
-    transaction = trWoutLastTwoLines(prevHash) # Generate a transaction without having last 2 lines.
+    transaction = trWoutLastTwoLines(prevHash) 	      # Generate a transaction without having last 2 lines.
     prevHash, transaction = PoWGenerator(transaction) # Generating PoW for the current transaction and updating the transaction.
     result.append(transaction)
 

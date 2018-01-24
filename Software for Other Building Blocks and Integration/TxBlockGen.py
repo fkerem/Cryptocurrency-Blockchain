@@ -1,10 +1,6 @@
 """
 TxBlockGen.py
 
-GROUP MEMBERS:
-Faik Kerem Ors
-Mustafa Aydin
-
 """
 
 import DSA

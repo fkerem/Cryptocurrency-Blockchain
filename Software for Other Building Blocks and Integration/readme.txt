@@ -1,10 +1,7 @@
 readme.txt
 -------------------------------------------
-GROUP MEMBERS:
-- Faik Kerem ORS
-- Mustafa AYDIN
 
-These modules (TxBlockGen.py, PoW.py) were written in Python2, WINDOWS.
+These modules were written in Python2, WINDOWS.
 Required modules: random, sys, hashlib, sha3, pyprimes, warnings.
 
 Explanation:
