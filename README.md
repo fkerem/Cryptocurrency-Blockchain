@@ -1,4 +1,4 @@
-# Cryptocurrency-Blockchain
+# Cryptocurrency with Blockchains Project
 Implementation of Cryptocurrency with Blockchains
 
 <p>Developed Software for Proof of Work</p>
